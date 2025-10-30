@@ -1,0 +1,104 @@
+####################################
+# Java + Maven build artifacts
+####################################
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!.mvn/wrapper/maven-wrapper.properties
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+release.properties
+dependency-reduced-pom.xml
+
+# Compiled binaries and temp files
+*.class
+*.log
+*.tmp
+*.swp
+*.swo
+
+####################################
+# Playwright Artifacts
+####################################
+# Browser caches, reports, screenshots, traces
+playwright-report/
+playwright/.cache/
+test-results/
+trace.zip
+*.har
+*.webm
+*.mp4
+*.png
+*.jpg
+
+####################################
+# Test Reports (Surefire / Allure / JUnit)
+####################################
+target/surefire-reports/
+target/failsafe-reports/
+allure-results/
+allure-report/
+
+####################################
+# IntelliJ IDEA
+####################################
+.idea/
+*.iml
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+# IntelliJ build output (if using build module)
+cmake-build-*/
+
+####################################
+# Eclipse
+####################################
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+####################################
+# NetBeans
+####################################
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+####################################
+# VS Code
+####################################
+.vscode/
+.history/
+
+####################################
+# macOS + Windows
+####################################
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+####################################
+# Logs & Misc
+####################################
+*.pid
+*.seed
+*.orig
+*.rej
+logs/
+
+####################################
+# 📦 Optional: Dependency cache
+####################################
+# Uncomment to ignore Maven local repo (usually global)
+# ~/.m2/
